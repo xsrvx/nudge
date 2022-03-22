@@ -1,7 +1,7 @@
 {
   "optionalFeatures": {
     "aggressiveUserExperience": true,
-    "asynchronousSoftwareUpdate": false,
+    "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": false,
     "enforceMinorUpdates": true
   },
