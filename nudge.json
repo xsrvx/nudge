@@ -1,0 +1,60 @@
+{
+  "optionalFeatures": {
+    "aggressiveUserExperience": true,
+    "asynchronousSoftwareUpdate": false,
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL": "https://support.apple.com/en-us/HT212585",
+      "requiredInstallationDate": "2022-03-25T00:00:00Z",
+      "requiredMinimumOSVersion": "12.3",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+  "userExperience": {
+    "allowUserQuitDeferrals": false,
+    "allowedDeferrals": 200,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 600,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 1200,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": false
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/usr/local/.install/resources/shaded-district-logo.png",
+    "iconLightPath": "/usr/local/.install/resources/shaded-district-logo.png",
+    "showDeferralCount": true,
+    "simpleMode": true,
+    "singleQuitButton": false,
+    "forceScreenShotIcon": true,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Update Device",
+        "customDeferralButtonText": "Custom",
+        "informationButtonText": "More Info",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "Important Notes",
+        "mainContentSubHeader": "Updates can take around 30 minutes to complete",
+        "mainContentText": "A fully up-to-date device is required to ensure that IT can accurately protect your device.\n\nIf you do not update your device, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, simply click on the Update Device button and follow the provided steps.",
+        "mainHeader": "Your device requires a security update",
+        "oneDayDeferralButtonText": "One Day",
+        "oneHourDeferralButtonText": "One Hour",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from the Technology team"
+      }
+    ]
+  }
+}
