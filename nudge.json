@@ -10,7 +10,7 @@
       "aboutUpdateURL": "https://support.apple.com/en-us/HT212585",
       "requiredInstallationDate": "2022-03-25T00:00:00Z",
       "requiredMinimumOSVersion": "11.6",
-      "targetedOSVersionsRule": "default"
+      "targetedOSVersionsRule": "11"
     }
   ],
   "userExperience": {
