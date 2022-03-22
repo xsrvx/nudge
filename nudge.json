@@ -35,7 +35,7 @@
     "iconDarkPath": "/usr/local/.install/resources/shaded-district-logo.png",
     "iconLightPath": "/usr/local/.install/resources/shaded-district-logo.png",
     "showDeferralCount": true,
-    "simpleMode": false,
+    "simpleMode": true,
     "singleQuitButton": false,
     "forceScreenShotIcon": true,
     "updateElements": [
